@@ -1,0 +1,36 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+
+
+body{
+    margin: 0;
+    height: 100vh;  
+}
+
+canvas{
+    display: block;
+}
+
+h1{
+    text-shadow: 4px 3px 0px #000000cc;
+    color: rgb(11 175 255 / 75%);
+    font-size: 40px;
+    font-family:'Lato', sans-serif;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    text-align: center;
+    text-transform: uppercase;
+    animation: annim1 3s linear;
+}
+
+@keyframes annim1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
